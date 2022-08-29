@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator JQuery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">   
+      Calculator
+    </div>
+    <div class="areaCalculator flex">
+      <div>
+        <ul class="areaOperator" id="areaDo">
+          <li class="btnOperator" id="addition">Сложение</li>
+          <li class="btnOperator" id="subtraction">Вычитание</li>
+          <li class="btnOperator" id="multiplication">Умножение</li>
+          <li class="btnOperator" id="division">Деление</li>
+          <li class="btnOperator" id="additionStr">Сложение строк</li>
+          <li class="btnOperator" id="additionArr">Сложение массивов</li>
+          <li class="btnOperator" id="negativeMeaning">Отрицательно значение</li>  
+        </ul>
+      </div>
+      <div id="areaResult">
+        <div class="areaOperand">
+          <div class="nameOperand">Операнд 1</div>
+          <input type="string" class="valueOperand" id="firstOperand" value="">
+        </div>
+        <div class="areaOperand" id="areaOperandSecond">
+          <div class="nameOperand">Операнд 2</div>
+          <input type="string" class="valueOperand" id="secondOperand" value="">
+        </div>
+        <div id="result"></div>
+          <button class="btn" id="resultBtn">result</button>
+        </div>
+    </div>
+  </div>
+  <script src="jquery-3.6.0.min.js"></script>  
+  <script src="index_2.js"></script>                                                                    
+</body>
+</html>

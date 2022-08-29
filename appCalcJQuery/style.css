@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  margin-bottom: 35px;
+}
+
+.areaCalculator {
+  width: 500px;
+  height: 500px;
+  border: 1px solid green;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.areaOperator {
+  width: 150px;
+  height: 500px;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btnOperator {
+  border: 1px solid blue;
+  margin: 5px;
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+#areaResult {
+  width: 350px;
+  height: 500px;
+  border: 1px solid gold;
+}
+
+.areaOperand {
+  border: 1px solid brown;
+  margin: 10px;
+  padding: 5px;
+}
+
+.nameOperand {
+  border: 1px solid brown;
+}
+
+.valueOperand {
+  border: 1px solid brown;
+}
+
+.areaOperandDisplayNone {
+  display: none;
+}
+
+.valueInput {
+  background-color: greenyellow;
+}
+
+#result {
+  border: 1px solid brown;
+  margin: 25px;
+  padding: 25px;
+}
+
+#resultBtn {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#reload {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.pressedButton {
+  background-color: green;
+  color: aqua;
+}
+
+#reloadtBtn {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Negative */
+
+#areaResultNegative {
+  width: 350px;
+  height: 500px;
+  border: 1px solid gold;
+  display: none;
+}
+
+.areaOperandNegative {
+  border: 1px solid brown;
+  margin: 10px;
+  padding: 5px;
+}
+
+.nameOperandNegative {
+  border: 1px solid brown;
+}
+.valueOperandNegative {
+  border: 1px solid brown;
+}
+
+#reloadNegative {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+#resultBtnNegative {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#resultNegative {
+  border: 1px solid brown;
+  margin: 25px;
+  padding: 25px;
+}
